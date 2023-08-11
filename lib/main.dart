@@ -13,7 +13,7 @@ class HomeView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('First Application21'),
+      appBar: AppBar(title: Text('Solarx'),
         centerTitle: true,
         backgroundColor: Colors.blue.shade400,
       ),
@@ -22,6 +22,11 @@ class HomeView extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         //crossAxisAlignment: CrossAxisAlignment.center,
         children: const[
+        Text('Solarx ' ,
+          style: TextStyle(
+            fontSize: 40,
+            fontWeight: FontWeight.bold
+          ) ,),
         Text('Hello'),
 
         Text('FirstProjrct')
